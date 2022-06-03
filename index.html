@@ -10,15 +10,7 @@
 
 </head>
 <body>
-    <div class="hero-image">
-        <div class="wrapper-img">
-            <div class="box"></div>
-            <div class="">
-                <img src="https://images.pexels.com/photos/3030331/pexels-photo-3030331.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="image" alt="">
-            </div>
-        </div>
-    </div>
-
+   
    <header>
        <nav>
         <div class="logo"><h3>MILNER</h3></div>
@@ -26,33 +18,49 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Collections</a></li>
             <li><a href="#">Lookbook</a></li>
-            <button>Contact Us</button>
+            <button>Contact</button>
         </ul>
        </nav>
    </header>
+   <main>
+       <span>BALANCE©</span>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aspernatur, voluptate illum perferendis quisquam, at obcaecati similique corporis animi dolore vitae consequuntur vel repellat!</p>
+   </main>
+ <div class="hero-image">
+        <div class="wrapper-img">
+            <div class="box"></div>
+            <div class="">
+                <img
+                src="pexels-photo-4406339.jpeg" 
+                class="image"
+                alt="">
+            </div>
+        </div>
+    </div>
 
-
+   <div class="bottom">
+       <div class="">
+            <p>About Author</p>
+            <h3>Josh MILNER <br> INTERIOR DECORATION</h3>
+       </div>
+        <div class="">
+            <p>PLACE</p>
+            <h3>CREATIVE DIRECTOR <br>NEW YORK</h3>
+       </div>
+       <div class="a">
+       <h4>READ MORE</h4></div>
+   </div>
+   <hr>
+  
 
      <script>    
-        TweenMax.to(".box",2.4,{
-            y:"-80%",
-            ease:Expo.easeInOut,
-            delay:1,
-        })
+      
         TweenMax.from("img",2.4,{
-            scale: "1.5",
             ease: Expo.easeInOut,
             delay: 0,
         })
-        TweenMax.to(".wrapper-img", 2.4, {
-            width: "1200",
-            height: "400",
-            ease: Expo.easeInOut,
-            delay: 1.6,
-        });
-
 
     </script> 
-
+    
 </body>
 </html>
