@@ -54,12 +54,20 @@
   
 
      <script>    
-      
-        TweenMax.from("img",2.4,{
-            ease: Expo.easeInOut,
-            delay: 0,
+        TweenMax.from(".hero-image",2.4,{
+            opacity:0,
+            y:500,
+            ease:Expo.easeInOut,
+            delay:1,
+        
         })
 
+       TweenMax.staggerFrom("header , main , .bottom, hr",2,{
+           opacity:0,
+           y:50,
+           ease:Expo.easeInOut,
+           delay:1.1
+       },0.2)
     </script> 
     
 </body>
